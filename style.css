@@ -30,15 +30,16 @@
    	background-color: darkred;
    	text-decoration: none;
    	padding: 15px;
+   	padding-top: 20px;
    	position: relative;
    	top: 15px;
    	border-radius: 9px;
+   	box-shadow: 0 0 16px rgba(0,0,0,.7);
   }
 
   #blue-button:hover {
   	background-color: black;
   	transition: all 0.5s ease-out;
-  	padding: 20px 50px;
   }
 
   #subtitle {
@@ -49,12 +50,10 @@
   }
 
   #container {
-  	border: solid;
   	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
   	flex-wrap: wrap;
-
-
-
   }
 
   .card {
@@ -78,13 +77,16 @@
  	height: 100px;
  	background-color: gray;
  	color:white ;
- 	padding-top: 15%;
- 	padding-left: 15%;
  	margin-top: 40px;
  	font-family: Overpass;
-
-
+ 	text-align: center;
+ 	font-size: 20px;
  }
+
+#footer p {
+	padding-top: 32px;
+}
+  
 
   
 
